@@ -3,8 +3,8 @@ package com.skilldistillery.cards.common;
 import com.skilldistillery.cards.blackjack.BlackJackHand;
 
 public class Player {
-
-	//Deck deck = new Deck();
+Dealer dealer;
+	
 	
 	private BlackJackHand blackJackHand = new BlackJackHand();
 	
@@ -18,6 +18,6 @@ public class Player {
 		public int getHandValue() {
 			return blackJackHand.getHandValue();
 		}
-	
+
 }
 	

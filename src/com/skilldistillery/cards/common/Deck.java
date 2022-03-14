@@ -12,7 +12,7 @@ public Deck() {
     cards = createDeck();
   }
   
-  private List<Card> createDeck(){
+  public List<Card> createDeck(){
     List<Card> deck = new ArrayList<>(52);
     for(Suit s : Suit.values()) {
       for(Rank r : Rank.values()) {
@@ -38,11 +38,13 @@ public Deck() {
 		Collections.shuffle(cards);
 	}
 	public Card showDealerCard() {
+	
 		return cards.get(0) ;
 		
 	}
 	public Card showDealerCard2() {
 		
 		return cards.get(1) ;
+		
 	}
 }

@@ -36,13 +36,13 @@ public class Card {
 	}
 	public int getValue() {
 
-	//	int value = 0;
+	
 		return this.rank.getValue();
 	}
 	
 	
 	
-	//ToDO ... everything else
+	
 	
 	
 	

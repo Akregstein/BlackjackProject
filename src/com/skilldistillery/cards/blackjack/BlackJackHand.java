@@ -40,10 +40,8 @@ public class BlackJackHand extends Hand {
 		return true;
 	}
 
-//	public Card showDealerCard() {
-//		Ca
-//		return cards.get(0);
-//	}
+
+
 
 	
 

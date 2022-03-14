@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public abstract class Hand {
-
-	public List<Card> cards;
+Deck deck= new Deck();
+	 protected List<Card> cards = new ArrayList<>(52);
 
 
 
 	public Hand() {
 		super();
-		this.cards = new ArrayList<>();
+	//	this.cards = new ArrayList<>();
 	}
 
 	public void addCard(Card card) {
@@ -26,13 +26,17 @@ public abstract class Hand {
 	public abstract int getHandValue();
 
 	
-	public Card showDealerCard() {
-		return cards.get(0) ;
-	}
+	
+//	public Card showDealerCard() {
+//		int size = cards.size();
+//		return cards.get(0) ;
+//		size -1;
+		
+//	}
 
 	@Override
 	public String toString() {
-		return "Users hand: " + cards + " * total hand value: " + getHandValue();
+		return " hand: " + cards + " * Total hand value: " + getHandValue()+ " * ";
 	}
 	
 }
