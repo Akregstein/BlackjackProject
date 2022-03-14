@@ -17,10 +17,8 @@ public class BlackJackApp {
 
 	public void run(Scanner kb) {
 
-
 		PlayerLoop play = new PlayerLoop();
 		play.playerLoop();
-
 
 	}
 
